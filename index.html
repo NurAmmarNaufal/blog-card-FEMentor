@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: aha;
+      src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+    }
+    body {
+      font-family: aha;
+      height: 100vh;
+      background-color: #F4D04E;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 384px;
+      height: 522px;
+      border: 1px solid black;
+      background-color: white;
+      border-radius: 20px;
+    }
+
+    .content {
+      margin: 24px;
+      /* background-color: aquamarine; */
+      width: auto;
+      height: auto;
+    }
+
+    .texts {
+      margin-top: 24px;
+    }
+
+    .label {
+      background-color: #F4D04E;
+      max-width: 82px;
+      height: 29px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .profile img {
+      width: 32px;
+      height: 32px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <img style="border-radius: 10px;" src="./assets/images/illustration-article.svg" alt="img">
+      <div class="texts">
+        <div class="label">
+          <p style="font-size: 14px;">Learning</p>
+        </div>
+        <p style="font-size: 14px;">Published 21 Dec 2023</p>
+        <p style="font-size: 24px;">HTML & CSS foundations</p>
+        <p style="color: #7F7F7F; font-size: 16px; font-weight: 200;">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <div class="profile">
+          <img src="./assets/images/image-avatar.webp" alt="avatar">
+          <p style="font-size: 14px;">Greg Hooper</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
